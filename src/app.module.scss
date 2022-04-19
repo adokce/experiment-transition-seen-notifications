@@ -1,0 +1,14 @@
+.dot {
+  position:absolute;
+  width:8px;
+  height:8px;
+  right:0;
+  top:0;
+  background:red;
+  border-radius: 9999px;
+}
+
+.seenDot {
+  opacity:0;
+  transition: opacity 1s ease-out;
+}
